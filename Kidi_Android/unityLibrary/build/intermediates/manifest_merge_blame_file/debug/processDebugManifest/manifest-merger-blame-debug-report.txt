@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="25" />
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+8-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+9    <uses-permission android:name="android.permission.VIBRATE" />
+9-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:4:3-64
+9-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:4:20-61
+10
+11    <uses-feature android:glEsVersion="0x00030000" />
+11-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+11-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+12    <uses-feature
+12-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:6:3-91
+13        android:name="android.hardware.vulkan.version"
+13-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+14        android:required="false" />
+14-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:6:64-88
+15    <uses-feature
+15-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:7:3-88
+16        android:name="android.hardware.touchscreen"
+16-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:7:17-60
+17        android:required="false" />
+17-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:7:61-85
+18    <uses-feature
+18-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:8:3-99
+19        android:name="android.hardware.touchscreen.multitouch"
+19-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:8:17-71
+20        android:required="false" />
+20-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:8:72-96
+21    <uses-feature
+21-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:9:3-108
+22        android:name="android.hardware.touchscreen.multitouch.distinct"
+22-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:9:17-80
+23        android:required="false" />
+23-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:9:81-105
+24
+25    <application
+25-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:10:3-32:17
+26        android:appCategory="game"
+26-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:10:16-42
+27        android:enableOnBackInvokedCallback="true"
+27-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:10:43-85
+28        android:extractNativeLibs="true" >
+28-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:10:86-118
+29        <meta-data
+29-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:11:5-69
+30            android:name="unity.splash-mode"
+30-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+31            android:value="0" />
+31-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:11:49-66
+32        <meta-data
+32-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:12:5-74
+33            android:name="unity.splash-enable"
+33-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:12:16-50
+34            android:value="True" />
+34-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:12:51-71
+35        <meta-data
+35-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:13:5-78
+36            android:name="unity.launch-fullscreen"
+36-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:13:16-54
+37            android:value="True" />
+37-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+38        <meta-data
+38-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+39            android:name="unity.render-outside-safearea"
+39-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+40            android:value="True" />
+40-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+41        <meta-data
+41-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:15:5-81
+42            android:name="notch.config"
+42-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:15:16-43
+43            android:value="portrait|landscape" />
+43-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:15:44-78
+44        <meta-data
+44-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+45            android:name="unity.auto-report-fully-drawn"
+45-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+46            android:value="true" />
+46-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+47        <meta-data
+47-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:17:5-78
+48            android:name="unity.strip-engine-code"
+48-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:17:16-54
+49            android:value="true" />
+49-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:17:55-75
+50        <meta-data
+50-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:18:5-79
+51            android:name="unity.run-without-focus"
+51-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:18:16-54
+52            android:value="false" />
+52-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:18:55-76
+53        <meta-data
+53-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:19:5-80
+54            android:name="unity.auto-set-game-state"
+54-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:19:16-56
+55            android:value="true" />
+55-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:19:57-77
+56
+57        <activity
+57-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:5-31:16
+58            android:name="com.unity3d.player.UnityPlayerGameActivity"
+58-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:312-369
+59            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+59-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:15-196
+60            android:enabled="true"
+60-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:197-219
+61            android:exported="true"
+61-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:220-243
+62            android:hardwareAccelerated="false"
+62-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:244-279
+63            android:launchMode="singleTask"
+63-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:280-311
+64            android:resizeableActivity="true"
+64-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:370-403
+65            android:screenOrientation="fullUser"
+65-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:404-440
+66            android:theme="@style/BaseUnityGameActivityTheme" >
+66-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:20:441-490
+67            <intent-filter>
+67-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:21:7-24:23
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:22:9-69
+68-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:22:19-66
+69
+70                <action android:name="android.intent.action.MAIN" />
+70-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:23:9-61
+70-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:23:17-58
+71            </intent-filter>
+72
+73            <meta-data
+73-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:25:7-82
+74                android:name="unityplayer.UnityActivity"
+74-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:25:18-58
+75                android:value="true" />
+75-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:25:59-79
+76            <meta-data
+76-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:26:7-77
+77                android:name="android.app.lib_name"
+77-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:26:18-53
+78                android:value="game" />
+78-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:26:54-74
+79            <meta-data
+79-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:27:7-130
+80                android:name="WindowManagerPreference:FreeformWindowSize"
+80-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:27:18-75
+81                android:value="@string/FreeformWindowSize_maximize" />
+81-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:27:76-127
+82            <meta-data
+82-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:28:7-145
+83                android:name="WindowManagerPreference:FreeformWindowOrientation"
+83-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:28:18-82
+84                android:value="@string/FreeformWindowOrientation_landscape" />
+84-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:28:83-142
+85            <meta-data
+85-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:29:7-70
+86                android:name="notch_support"
+86-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:29:18-46
+87                android:value="true" />
+87-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:29:47-67
+88
+89            <layout
+89-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:30:7-68
+90                android:minHeight="300px"
+90-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:30:15-40
+91                android:minWidth="400px" />
+91-->D:\kidi\Kidi_Android\unityLibrary\src\main\AndroidManifest.xml:30:41-65
+92        </activity>
+93    </application>
+94
+95</manifest>

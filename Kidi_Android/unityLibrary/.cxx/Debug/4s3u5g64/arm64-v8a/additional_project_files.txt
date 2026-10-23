@@ -1,0 +1,17 @@
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\GAToUnityCallbacks.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\MacroEnd.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\MacroHeaderBegin.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\MacroSourceBegin.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGAApplication.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGAConfiguration.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGADebug.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGAEvents.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGAInput.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboard.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboardCallbacks.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGATypes.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UGAVersion.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UnityToGACallbacks.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UnityToGAConfigurationCallbacks.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UnityToGAKeyEventCallbacks.h
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\UnityToGAMotionEventCallbacks.h

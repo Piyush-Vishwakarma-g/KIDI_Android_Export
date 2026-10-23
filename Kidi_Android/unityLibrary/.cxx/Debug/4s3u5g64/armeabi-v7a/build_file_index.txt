@@ -1,0 +1,2 @@
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\kidi\Kidi_Android\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
